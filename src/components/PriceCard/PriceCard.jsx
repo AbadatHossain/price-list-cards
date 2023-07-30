@@ -16,6 +16,9 @@ const PriceCard = ({ price }) => {
                     feature={feature}
                 ></Feature>)
             }
+
+
+            
             <button className='w-full mt-auto hover:bg-green-700 bg-green-500 py-2 rounded-md text-white font-bold'>Buy Now</button>
         </div>
     );
